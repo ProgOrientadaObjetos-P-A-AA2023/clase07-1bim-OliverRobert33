@@ -5,7 +5,7 @@
  */
 package paquete1;
 
-public class Calificacion{
+public class Calificacion {
 
     private double nota;
     private String nombreMateria;
@@ -14,7 +14,7 @@ public class Calificacion{
     public Calificacion(double n, String nombre) {
         nota = n;
         nombreMateria = nombre;
-        
+
     }
 
     public void establecerNota(double n) {
@@ -24,7 +24,7 @@ public class Calificacion{
     public void establecerNombreMateria(String n) {
         nombreMateria = n;
     }
-    
+
     public void establecerProfesor(Profesor n) {
         profesor = n;
     }
@@ -36,7 +36,7 @@ public class Calificacion{
     public String obtenerNombreMateria() {
         return nombreMateria;
     }
-    
+
     public Profesor obtenerProfesor() {
         return profesor;
     }
