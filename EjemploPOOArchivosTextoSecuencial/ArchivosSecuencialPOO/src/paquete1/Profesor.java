@@ -33,6 +33,6 @@ public class Profesor{
     
     @Override
     public String toString(){
-        return String.format("%s %s",nombre, tipo);
+        return String.format("%s - %s",nombre, tipo);
     }
 }
