@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package paquete2;
 
 import java.io.File;
@@ -95,7 +91,8 @@ public class ArchivoLectura {
         String cadena = "Lista Profesores\n";
         for (int i = 0; i < obtenerLista().size(); i++) {
             Profesor profTemporal = obtenerLista().get(i); // Obj. Profesor
-            cadena = String.format("%s(%d) %s %s\n", cadena,
+            cadena = String.format("%s(%d) %s %s\n",
+                    cadena,
                     i + 1,
                     profTemporal.obtenerNombre(), // obtenerLista().get(i).obtenerNombre(),
                     profTemporal.obtenerTipo());    // obtenerLista().get(i).obtenerTipo());

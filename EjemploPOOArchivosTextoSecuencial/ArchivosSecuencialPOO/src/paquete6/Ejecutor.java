@@ -10,5 +10,9 @@ package paquete6;
  * @author reroes
  */
 public class Ejecutor {
-    
+
+    public static void main(String[] args) {
+        String nombreArchivo = "hospitales.txt";
+
+    }
 }
